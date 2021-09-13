@@ -1,0 +1,359 @@
+[{
+  "_id": {
+    "$oid": "613f92a9106b807baccd7fb3"
+  },
+  "description": "Harga jual per strip, stock dalam strip"
+},{
+  "_id": 1,
+  "name": "Indomie Ayam Bawang",
+  "price": 3000,
+  "stock": 30,
+  "unit": "pcs",
+  "description": "Harga jual perbungkus",
+  "categories": [
+    "makanan",
+    "mie"
+  ],
+  "suppliers": [
+    {
+      "name": "Oemah Mie",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Gudang Mie",
+      "city": "Bandung"
+    }
+  ],
+  "expired_at": {
+    "$date": "2022-01-01T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2021-01-01T00:00:00Z"
+  }
+},{
+  "_id": 2,
+  "name": "Mie Sedap Goreng",
+  "price": 2500,
+  "stock": 10,
+  "unit": "pcs",
+  "description": "Harga jual perbungkus",
+  "categories": [
+    "makanan",
+    "mie"
+  ],
+  "suppliers": [
+    {
+      "name": "Mie-ku",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Rumah Mie",
+      "city": "Bandung"
+    }
+  ],
+  "expired_at": {
+    "$date": "2022-02-01T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2021-01-02T00:00:00Z"
+  }
+},{
+  "_id": 3,
+  "name": "Indomie Goreng",
+  "price": 3000,
+  "stock": 15,
+  "unit": "pcs",
+  "description": "Harga jual perbungkus",
+  "categories": [
+    "makanan",
+    "mie"
+  ],
+  "suppliers": [
+    {
+      "name": "Oemah Mie",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Gudang Mie",
+      "city": "Bandung"
+    }
+  ],
+  "expired_at": {
+    "$date": "2022-02-01T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2021-01-02T00:00:00Z"
+  }
+},{
+  "_id": 4,
+  "name": "Indomie Soto Lamongan",
+  "price": 3000,
+  "stock": 30,
+  "unit": "pcs",
+  "description": "Harga jual perbungkus",
+  "categories": [
+    "makanan",
+    "mie"
+  ],
+  "suppliers": [
+    {
+      "name": "Oemah Mie",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Gudang Mie",
+      "city": "Bandung"
+    }
+  ],
+  "expired_at": {
+    "$date": "2022-03-01T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2021-02-01T00:00:00Z"
+  }
+},{
+  "_id": 5,
+  "name": "Sarimie Ayam Penyet",
+  "price": 1500,
+  "stock": 50,
+  "unit": "pcs",
+  "description": "Harga jual perbungkus",
+  "categories": [
+    "makanan",
+    "mie"
+  ],
+  "expired_at": {
+    "$date": "2022-03-01T00:00:00Z"
+  },
+  "created_at": {
+    "$date": "2021-02-01T00:00:00Z"
+  }
+},{
+  "_id": 6,
+  "name": "Alpukat Mentega",
+  "price": 20000,
+  "stock": 90.4,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Pasar Induk",
+      "city": "DKI Jakarta"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 7,
+  "name": "Mangga",
+  "price": 15000,
+  "stock": 180.9,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Pasar Induk",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 8,
+  "name": "Buah Naga",
+  "price": 12000,
+  "stock": 30.2,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Gudang Buah & Sayur",
+      "city": "Semarang"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 9,
+  "name": "Anggur",
+  "price": 35000,
+  "stock": 30.5,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Gudang Buah & Sayur",
+      "city": "Semarang"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 10,
+  "name": "Semangka",
+  "price": 30000,
+  "stock": 500.2,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Pasar Induk",
+      "city": "Semarang"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 0,
+  "name": "Kopi",
+  "price": 150000,
+  "stock": 500.2,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah"
+  ],
+  "suppliers": [
+    {
+      "name": "Antar Kopi",
+      "city": "Aceh"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 11,
+  "name": "Cabai",
+  "price": 100000,
+  "stock": 100,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah",
+    "sayur"
+  ],
+  "suppliers": [
+    {
+      "name": "Pasar Induk",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 12,
+  "name": "Tomat",
+  "price": 10000,
+  "stock": 100,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "buah",
+    "sayur"
+  ],
+  "created_at": {
+    "$date": "2021-03-01T00:00:00Z"
+  }
+},{
+  "_id": 13,
+  "name": "Beras",
+  "price": 14000,
+  "stock": 100,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "sembako"
+  ],
+  "suppliers": [
+    {
+      "name": "Pasar Induk",
+      "city": "DKI Jakarta"
+    },
+    {
+      "name": "Pasar Kecapi",
+      "city": "Bekasi"
+    }
+  ],
+  "created_at": {
+    "$date": "2021-03-03T00:00:00Z"
+  }
+},{
+  "_id": 14,
+  "name": "Minyak Goreng",
+  "price": 12000,
+  "stock": 55.5,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "sembako"
+  ],
+  "created_at": {
+    "$date": "2021-03-03T00:00:00Z"
+  }
+},{
+  "_id": 15,
+  "name": "Gula",
+  "price": 31000,
+  "stock": 120.5,
+  "unit": "kg",
+  "description": "Harga jual per kilo, stock dalam kilo",
+  "categories": [
+    "makanan",
+    "sembako"
+  ],
+  "created_at": {
+    "$date": "2021-03-03T00:00:00Z"
+  }
+}]
